@@ -13,11 +13,11 @@ compile_from_drive.sh link texfilename foldername latex_compiler
 
 for example
 
-'''./compile_from_drive.sh https://docs.google.com/document/d/15evyeZQxmsFkovLIIql53IahTJBWWF-dNjOJaZE6YJo/pub example ./testfolder xelatex
-'''
+        ./compile_from_drive.sh https://docs.google.com/document/d/15evyeZQxmsFkovLIIql53IahTJBWWF-dNjOJaZE6YJo/pub example ./testfolder xelatex
+
 
 If you want this to happen every 5 minutes (this is how often this file could be updated by Google Drive) do this:
 
-'''
-watch -n300 ./compile_from_drive.sh https://docs.google.com/document/d/15evyeZQxmsFkovLIIql53IahTJBWWF-dNjOJaZE6YJo/pub example ./testfolder xelatex
-'''
+
+        watch -n300 ./compile_from_drive.sh https://docs.google.com/document/d/15evyeZQxmsFkovLIIql53IahTJBWWF-dNjOJaZE6YJo/pub example ./testfolder xelatex
+
