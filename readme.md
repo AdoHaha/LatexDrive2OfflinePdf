@@ -11,4 +11,4 @@ compile_from_drive.sh link texfilename foldername latex_compiler
 
 for example
 
-./compile_from_drive.sh https://docs.google.com/document/d/15evyeZQxmsFkovLIIql53IahTJBWWF-dNjOJaZE6YJo/pub example.tex ./testfolder xelatex
+./compile_from_drive.sh https://docs.google.com/document/d/15evyeZQxmsFkovLIIql53IahTJBWWF-dNjOJaZE6YJo/pub example ./testfolder xelatex
